@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.naseer.finalg">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.naseer.finalg.MainMenu"
+            android:label="Surviver"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.naseer.finalg.Game"
+            android:label="Game"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.naseer.finalg.OptionsMenu"
+            android:label="@string/title_activity_options_menu"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.naseer.finalg.HighScore"
+            android:label="@string/title_activity_high_score"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

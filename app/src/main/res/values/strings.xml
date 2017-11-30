@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Surviver</string>
+    <string name="hello_world">hello world</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_options_menu">OptionsMenu</string>
+    <string name="title_activity_high_score">HighScore</string>
+
+</resources>
